@@ -1,0 +1,15 @@
+vlan 2
+name staff
+int g1/1
+switchport mode access 
+switchport access vlan 2
+vlan 3
+name student
+int g1/2
+switchport mode access 
+switchport access vlan 3
+vlan 4
+name Research
+int g1/3
+switchport mode access 
+switchport access vlan 4
